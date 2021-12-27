@@ -42,12 +42,13 @@ main{
     background: radial-gradient(#94bdcc, 70%, #003a54);
 }
 
+
 #home{
     position: relative;
     min-height: 100vh;
     min-width: 100vw;
     z-index: 10;
-    overflow-x: hidden;
+    overflow: hidden;
     .contents{
         position: relative;
         display: flex;
