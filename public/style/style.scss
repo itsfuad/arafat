@@ -164,6 +164,31 @@ main{
         padding: 20px;
         font-size: 20px;
         padding-bottom: 100px;
+        .bio{
+            text-align: justify;
+            padding: 50px;
+        }
+    }
+}
+
+#skills{
+    background: #8bb5c500;
+    position: relative;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 10;
+    .contents{
+        padding: 20px;
+        font-size: 20px;
+        padding-bottom: 100px;
+        .skills{
+            text-align: justify;
+            padding: 50px;
+        }
     }
 }
 

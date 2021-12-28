@@ -212,6 +212,43 @@ main {
   padding-bottom: 100px;
 }
 
+#about .contents .bio {
+  text-align: justify;
+  padding: 50px;
+}
+
+#skills {
+  background: #8bb5c500;
+  position: relative;
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  z-index: 10;
+}
+
+#skills .contents {
+  padding: 20px;
+  font-size: 20px;
+  padding-bottom: 100px;
+}
+
+#skills .contents .skills {
+  text-align: justify;
+  padding: 50px;
+}
+
 @media (orientation: landscape) and (min-device-aspect-ratio: 1 / 1) {
   #home .decorations {
     width: 350px;
