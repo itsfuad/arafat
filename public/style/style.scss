@@ -19,6 +19,46 @@
     --decorator_size: -50px;
 }
 
+header{
+    nav{
+        position: fixed;
+        z-index: 100;
+        width: 100%;
+        ul{
+            position: relative;
+            background: rgba(71, 145, 175, 0.829);
+            color: white;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            gap: 15px;
+            padding: 10px;
+            font-size: 0.8rem;
+            li{
+                position: relative;
+                list-style-type: none;
+                &::after {
+                    content: "";
+                    position: absolute;
+                    height: 2px;
+                    width: 100%;
+                    bottom: 0;
+                    left: 0;
+                    background: skyblue;
+                    transform: scaleX(0);
+                    transition: .3s;
+                }
+                &:hover{
+                    cursor: pointer;
+                    &::after{
+                        transform: scaleX(1);
+                    }
+                }
+            }
+        }
+    }
+}
+
 body{
     overflow-x: hidden;
     user-select: none;

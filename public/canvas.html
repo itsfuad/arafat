@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas</title>
+</head>
+<body>
+    <section id="main">
+        <canvas id="canvas-2"></canvas>
+    </section>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #main{
+            height: 100vh;
+            width: 100vw;
+            background: url("images/canvasvg.jpeg");
+            background-size: cover;
+            background-position: center;
+        }
+        #canvas-2{
+            position: relative;
+            background: linear-gradient(50deg, rgba(17, 5, 71, 0.836), 80%, rgba(252, 250, 249, 0.411));
+            background-size: cover;
+            background-position: center;
+            z-index: 1;
+        }
+    </style>
+
+    <script defer src="js/particle.min.js"></script>
+    <script defer src="js/app.min.js"></script>
+    <script defer src="js/main.js"></script>
+    <script defer src="js/particle-text-engine.js"></script>
+</body>
+</html>
